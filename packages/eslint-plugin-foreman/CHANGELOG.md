@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v13.0.0) (2023-04-14)
+
+
+### Bug Fixes
+
+* **deps:** bump chalk from 3.0.0 to 4.1.0 ([#248](https://github.com/theforeman/foreman-js/issues/248)) ([9ccbbef](https://github.com/theforeman/foreman-js/commit/9ccbbefe82196bb3361f8917f456f4ef6d74c825))
+
+
+### Features
+
+* **eslint-plugin-foreman:** allow for-of loops ([#353](https://github.com/theforeman/foreman-js/issues/353)) ([aa69f55](https://github.com/theforeman/foreman-js/commit/aa69f55415f92331eeb7a78c391c8d53cdf75e7c))
+
+
+
+
+
 ## [12.0.2](https://github.com/theforeman/foreman-js/compare/v12.0.1...v12.0.2) (2023-03-03)
 
 **Note:** Version bump only for package @theforeman/eslint-plugin-foreman

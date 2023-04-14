@@ -3,6 +3,56 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v13.0.0) (2023-04-14)
+
+
+### Bug Fixes
+
+* **deps:** bump react-dnd from 9.5.1 to 14.0.2 ([7282ad6](https://github.com/theforeman/foreman-js/commit/7282ad650c60ab4bc5ce3bdc6d665158026f0cb5))
+* **vendor:** updating scss-bundle ([3a78242](https://github.com/theforeman/foreman-js/commit/3a782426d7074f4dfef78e23368fc26eee9c5bd0))
+* **vendor-core:** add ace-builds ace to modules ([64a7614](https://github.com/theforeman/foreman-js/commit/64a761418b2403959e911807c0b70e38be4f041a))
+* **vendor-core:** add styles of [@redhat-cloud-services](https://github.com/redhat-cloud-services) ([8fe8afe](https://github.com/theforeman/foreman-js/commit/8fe8afedecb8f02d8e1c61b1c485d92fda34bae3))
+* **vendor-core:** export apollo from vendor ([#261](https://github.com/theforeman/foreman-js/issues/261)) ([0a0c322](https://github.com/theforeman/foreman-js/commit/0a0c322c5e590852dae2256f9dc9ec4c33baa303))
+* **vendor-core:** export apollo/client/link/batch-http from vendor ([448f38c](https://github.com/theforeman/foreman-js/commit/448f38c694a35237a3f391ad469026d4de1d8acc))
+* **vendor-core:** remove unused packages from vendor core ([0456b7b](https://github.com/theforeman/foreman-js/commit/0456b7ba7d2635b1133f279b22eb51f30081a2b7))
+* **vendor-core:** updating ace editor to fix a typo ([22cd273](https://github.com/theforeman/foreman-js/commit/22cd273da0a95df2b0bd66e9b9fe7ee9a4ec0f39)), closes [#34062](https://github.com/theforeman/foreman-js/issues/34062)
+
+
+### Code Refactoring
+
+* **deps:** drop flot.jquery library ([eba921b](https://github.com/theforeman/foreman-js/commit/eba921b54fcfb650503a31b1ce0f00f9861273cd)), closes [#32584](https://github.com/theforeman/foreman-js/issues/32584)
+
+
+### Features
+
+* **vendor-core:** add @redhat-cloud-services/frontend-components ([6d53fc5](https://github.com/theforeman/foreman-js/commit/6d53fc555a4d9c9f4b7b7244e1f18964ae9d6e8a))
+* **vendor-core:** add @reduxjs/toolkit library ([f9d46b0](https://github.com/theforeman/foreman-js/commit/f9d46b0c93a20afe47bd1ec3f6a6561dda717530)), closes [#32903](https://github.com/theforeman/foreman-js/issues/32903)
+* **vendor-core:** add brace searchbox to the react ace editor ([#313](https://github.com/theforeman/foreman-js/issues/313)) ([e68586a](https://github.com/theforeman/foreman-js/commit/e68586a72954a2514b8f60ce2fb0fb968c134a50))
+* **vendor-core:** add graphql client ([96f1cc4](https://github.com/theforeman/foreman-js/commit/96f1cc4112aa5e36ebe89346ba15142d91d311bb)), closes [#31745](https://github.com/theforeman/foreman-js/issues/31745)
+* **vendor-core:** add humanize-duration lib ([27bd8f0](https://github.com/theforeman/foreman-js/commit/27bd8f0cda21a2458bff4df1188eaf1c1690b0db))
+* **vendor-core:** add patternfly-addons styles ([f470a1b](https://github.com/theforeman/foreman-js/commit/f470a1bd11a3e3b876a535ab7f95a1f3252a9821))
+* **vendor-core:** add pf4 react-charts ([d5b8e82](https://github.com/theforeman/foreman-js/commit/d5b8e821da50dca322647f121708e23ca1468d21))
+* **vendor-core:** add react-intl ([fa2a950](https://github.com/theforeman/foreman-js/commit/fa2a95042e69c1b4ba6f90809fc255c0eb4e81a0)), closes [#33604](https://github.com/theforeman/foreman-js/issues/33604)
+* **vendor-core:** bump react-table version ([91a0f6d](https://github.com/theforeman/foreman-js/commit/91a0f6d174d348b50a8bb7903593b29ec1ce103d))
+* **vendor-core:** remove patternfly/react-catalog-view-extension ([bd015b2](https://github.com/theforeman/foreman-js/commit/bd015b2be2b88265fc82708e2ae80bac6cc714a6))
+* **vendor-core:** update @patternfly/react-core to 4.128.6 ([06a4e97](https://github.com/theforeman/foreman-js/commit/06a4e97f1fa4ed14078718911d7995b5bb741f29))
+* **vendor-core:** update all pf4 related ([c83ff0e](https://github.com/theforeman/foreman-js/commit/c83ff0e29d68df4d229e8f2d1be3eabbff9e89a0))
+* **vendor-core:** update pf4 to 2021.02 version ([b78ea00](https://github.com/theforeman/foreman-js/commit/b78ea0077feadf249ea9ff8f913940b0b8b9ef7c))
+* **vendor-core:** upgrade all the [@patternfly](https://github.com/patternfly) packages ([f8661db](https://github.com/theforeman/foreman-js/commit/f8661db86e85d8fe823a25ca5281da684025f254))
+* **vendor-core:** upgrade the patternfly packages ([bf68615](https://github.com/theforeman/foreman-js/commit/bf686156bf842024f3f9e6158116c662c7fa3979))
+
+
+### BREAKING CHANGES
+
+* **vendor-core:** Removes patternfly/react-catalog-view-extension
+* **vendor:** removing bootstrap mixins, replacing node-sass with sass
+* **vendor-core:** ace editor search import changes, also need to disable loadWorkerFromBlob
+* **deps:** The flot.jquery has been dropped and can be no longer used.
+
+
+
+
+
 ## [12.0.2](https://github.com/theforeman/foreman-js/compare/v12.0.1...v12.0.2) (2023-03-03)
 
 **Note:** Version bump only for package @theforeman/vendor-core

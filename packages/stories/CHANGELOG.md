@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v13.0.0) (2023-04-14)
+
+
+### Bug Fixes
+
+* **deps:** bump @storybook/addon-actions from 6.0.22 to 6.1.18 ([#264](https://github.com/theforeman/foreman-js/issues/264)) ([456afbc](https://github.com/theforeman/foreman-js/commit/456afbce1c0f4ce107ed9048c453c64155ed29b6))
+* **stories:** handle templateParameters as a promise ([89395ef](https://github.com/theforeman/foreman-js/commit/89395efde4bcb79b432f3ce56a6aa86881365e0a)), closes [#393](https://github.com/theforeman/foreman-js/issues/393)
+* **stories:** upgrade storybook to v6.4 ([fbb1206](https://github.com/theforeman/foreman-js/commit/fbb1206d753a6cd7321b158f5839834ed3cf2d62))
+* **vendor:** pin working cheerio and babel versions ([165aa69](https://github.com/theforeman/foreman-js/commit/165aa692365f093788e0a4e39d9b0b5b10567bd7))
+* **vendor:** updating scss-bundle ([3a78242](https://github.com/theforeman/foreman-js/commit/3a782426d7074f4dfef78e23368fc26eee9c5bd0))
+
+
+### BREAKING CHANGES
+
+* **vendor:** removing bootstrap mixins, replacing node-sass with sass
+
+
+
+
+
 ## [12.0.2](https://github.com/theforeman/foreman-js/compare/v12.0.1...v12.0.2) (2023-03-03)
 
 **Note:** Version bump only for package @theforeman/stories

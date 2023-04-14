@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v13.0.0) (2023-04-14)
+
+
+### Bug Fixes
+
+* **builder:** optional chaining in builder ([259e6ae](https://github.com/theforeman/foreman-js/commit/259e6aeec7e789bb18b940d327a1292d4c66136d))
+* **builder:** syntax optional chaining in builder ([aa09756](https://github.com/theforeman/foreman-js/commit/aa09756cbaff878d658a86daac513f2463d3dbfa))
+* **vendor:** pin working cheerio and babel versions ([165aa69](https://github.com/theforeman/foreman-js/commit/165aa692365f093788e0a4e39d9b0b5b10567bd7))
+
+
+
+
+
 ## [12.0.2](https://github.com/theforeman/foreman-js/compare/v12.0.1...v12.0.2) (2023-03-03)
 
 **Note:** Version bump only for package @theforeman/builder
