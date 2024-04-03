@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v14.0.0) (2024-04-03)
+
+
+### Bug Fixes
+
+* **vendor-dev:** fix lint failures when theforeman/stories is not installed ([9258698](https://github.com/theforeman/foreman-js/commit/9258698b261394c8fd522dd770e046872bc7704b))
+
+
+### Features
+
+* **root:** drop stories package ([dacd90c](https://github.com/theforeman/foreman-js/commit/dacd90c28663691c935e7ee1d11e502af2241753))
+
+
+### BREAKING CHANGES
+
+* **root:** Removes stories package
+
+
+
+
+
 # [13.0.0](https://github.com/theforeman/foreman-js/compare/v12.2.3...v13.0.0) (2024-02-05)
 
 

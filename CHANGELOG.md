@@ -3,6 +3,80 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v14.0.0) (2024-04-03)
+
+
+### Bug Fixes
+
+* **builder:** optional chaining in builder ([259e6ae](https://github.com/theforeman/foreman-js/commit/259e6aeec7e789bb18b940d327a1292d4c66136d))
+* **builder:** syntax optional chaining in builder ([aa09756](https://github.com/theforeman/foreman-js/commit/aa09756cbaff878d658a86daac513f2463d3dbfa))
+* **deps:** bump @storybook/addon-actions from 6.0.22 to 6.1.18 ([#264](https://github.com/theforeman/foreman-js/issues/264)) ([456afbc](https://github.com/theforeman/foreman-js/commit/456afbce1c0f4ce107ed9048c453c64155ed29b6))
+* **deps:** bump chalk from 3.0.0 to 4.1.0 ([#248](https://github.com/theforeman/foreman-js/issues/248)) ([9ccbbef](https://github.com/theforeman/foreman-js/commit/9ccbbefe82196bb3361f8917f456f4ef6d74c825))
+* **deps:** bump jest from 26.4.2 to 26.6.3 ([43a976d](https://github.com/theforeman/foreman-js/commit/43a976d1e03f8e712fbea942332819723ead3511))
+* **deps:** bump react-dnd from 9.5.1 to 14.0.2 ([7282ad6](https://github.com/theforeman/foreman-js/commit/7282ad650c60ab4bc5ce3bdc6d665158026f0cb5))
+* **stories:** handle templateParameters as a promise ([89395ef](https://github.com/theforeman/foreman-js/commit/89395efde4bcb79b432f3ce56a6aa86881365e0a)), closes [#393](https://github.com/theforeman/foreman-js/issues/393)
+* **stories:** upgrade storybook to v6.4 ([fbb1206](https://github.com/theforeman/foreman-js/commit/fbb1206d753a6cd7321b158f5839834ed3cf2d62))
+* **test:** fix custom jest resolver ([83020eb](https://github.com/theforeman/foreman-js/commit/83020eb093703037953e037910320bea9157332c))
+* **test:** updates commander from v4 to v7 ([ace2ffb](https://github.com/theforeman/foreman-js/commit/ace2ffbab655b72b0e35517af62a2b1c6066233a))
+* **vendor:** pin working cheerio and babel versions ([165aa69](https://github.com/theforeman/foreman-js/commit/165aa692365f093788e0a4e39d9b0b5b10567bd7))
+* **vendor:** updating scss-bundle ([3a78242](https://github.com/theforeman/foreman-js/commit/3a782426d7074f4dfef78e23368fc26eee9c5bd0))
+* **vendor-core:** add ace-builds ace to modules ([64a7614](https://github.com/theforeman/foreman-js/commit/64a761418b2403959e911807c0b70e38be4f041a))
+* **vendor-core:** add styles of [@redhat-cloud-services](https://github.com/redhat-cloud-services) ([8fe8afe](https://github.com/theforeman/foreman-js/commit/8fe8afedecb8f02d8e1c61b1c485d92fda34bae3))
+* **vendor-core:** export apollo from vendor ([#261](https://github.com/theforeman/foreman-js/issues/261)) ([0a0c322](https://github.com/theforeman/foreman-js/commit/0a0c322c5e590852dae2256f9dc9ec4c33baa303))
+* **vendor-core:** export apollo/client/link/batch-http from vendor ([448f38c](https://github.com/theforeman/foreman-js/commit/448f38c694a35237a3f391ad469026d4de1d8acc))
+* **vendor-core:** remove unused packages from vendor core ([0456b7b](https://github.com/theforeman/foreman-js/commit/0456b7ba7d2635b1133f279b22eb51f30081a2b7))
+* **vendor-core:** updating ace editor to fix a typo ([22cd273](https://github.com/theforeman/foreman-js/commit/22cd273da0a95df2b0bd66e9b9fe7ee9a4ec0f39)), closes [#34062](https://github.com/theforeman/foreman-js/issues/34062)
+* **vendor-dev:** fix lint failures when theforeman/stories is not installed ([9258698](https://github.com/theforeman/foreman-js/commit/9258698b261394c8fd522dd770e046872bc7704b))
+
+
+### Code Refactoring
+
+* **deps:** drop flot.jquery library ([eba921b](https://github.com/theforeman/foreman-js/commit/eba921b54fcfb650503a31b1ce0f00f9861273cd)), closes [#32584](https://github.com/theforeman/foreman-js/issues/32584)
+
+
+### Features
+
+* **eslint-plugin-foreman:** allow for-of loops ([#353](https://github.com/theforeman/foreman-js/issues/353)) ([aa69f55](https://github.com/theforeman/foreman-js/commit/aa69f55415f92331eeb7a78c391c8d53cdf75e7c))
+* **eslint-plugin-rules:** add eslint-plugin-rules ([f6b00ea](https://github.com/theforeman/foreman-js/commit/f6b00ea32dd5901954b8cb77a902a756e2584f5b))
+* **eslint-plugin-rules:** checking for ouiaId in pf4 components only ([#470](https://github.com/theforeman/foreman-js/issues/470)) ([afe1c7f](https://github.com/theforeman/foreman-js/commit/afe1c7f8607b7d85a83462bbc90a571208c6b808))
+* **root:** drop stories package ([dacd90c](https://github.com/theforeman/foreman-js/commit/dacd90c28663691c935e7ee1d11e502af2241753))
+* **test:** add @apollo/react-testing ([30ff90a](https://github.com/theforeman/foreman-js/commit/30ff90a4aa116ff255c23c069d3bad2e574c89dc))
+* **test:** add jest-transform-graphql ([f44a79e](https://github.com/theforeman/foreman-js/commit/f44a79e73420486a0d5a188e384cd78aeaac6e78))
+* **vendor-core:** add @redhat-cloud-services/frontend-components ([6d53fc5](https://github.com/theforeman/foreman-js/commit/6d53fc555a4d9c9f4b7b7244e1f18964ae9d6e8a))
+* **vendor-core:** add @reduxjs/toolkit library ([f9d46b0](https://github.com/theforeman/foreman-js/commit/f9d46b0c93a20afe47bd1ec3f6a6561dda717530)), closes [#32903](https://github.com/theforeman/foreman-js/issues/32903)
+* **vendor-core:** add brace searchbox to the react ace editor ([#313](https://github.com/theforeman/foreman-js/issues/313)) ([e68586a](https://github.com/theforeman/foreman-js/commit/e68586a72954a2514b8f60ce2fb0fb968c134a50))
+* **vendor-core:** add graphql client ([96f1cc4](https://github.com/theforeman/foreman-js/commit/96f1cc4112aa5e36ebe89346ba15142d91d311bb)), closes [#31745](https://github.com/theforeman/foreman-js/issues/31745)
+* **vendor-core:** add humanize-duration lib ([27bd8f0](https://github.com/theforeman/foreman-js/commit/27bd8f0cda21a2458bff4df1188eaf1c1690b0db))
+* **vendor-core:** add patternfly-addons styles ([f470a1b](https://github.com/theforeman/foreman-js/commit/f470a1bd11a3e3b876a535ab7f95a1f3252a9821))
+* **vendor-core:** add pf4 react-charts ([d5b8e82](https://github.com/theforeman/foreman-js/commit/d5b8e821da50dca322647f121708e23ca1468d21))
+* **vendor-core:** add react-intl ([fa2a950](https://github.com/theforeman/foreman-js/commit/fa2a95042e69c1b4ba6f90809fc255c0eb4e81a0)), closes [#33604](https://github.com/theforeman/foreman-js/issues/33604)
+* **vendor-core:** bump react-table version ([91a0f6d](https://github.com/theforeman/foreman-js/commit/91a0f6d174d348b50a8bb7903593b29ec1ce103d))
+* **vendor-core:** remove patternfly/react-catalog-view-extension ([bd015b2](https://github.com/theforeman/foreman-js/commit/bd015b2be2b88265fc82708e2ae80bac6cc714a6))
+* **vendor-core:** update @patternfly/react-core to 4.128.6 ([06a4e97](https://github.com/theforeman/foreman-js/commit/06a4e97f1fa4ed14078718911d7995b5bb741f29))
+* **vendor-core:** update all pf4 related ([c83ff0e](https://github.com/theforeman/foreman-js/commit/c83ff0e29d68df4d229e8f2d1be3eabbff9e89a0))
+* **vendor-core:** update pf4 to 2021.02 version ([b78ea00](https://github.com/theforeman/foreman-js/commit/b78ea0077feadf249ea9ff8f913940b0b8b9ef7c))
+* **vendor-core:** upgrade all the [@patternfly](https://github.com/patternfly) packages ([f8661db](https://github.com/theforeman/foreman-js/commit/f8661db86e85d8fe823a25ca5281da684025f254))
+* **vendor-core:** upgrade the patternfly packages ([bf68615](https://github.com/theforeman/foreman-js/commit/bf686156bf842024f3f9e6158116c662c7fa3979))
+
+
+### Reverts
+
+* Revert "chore(builder): bump babel/preset-env (#471)" ([da110da](https://github.com/theforeman/foreman-js/commit/da110dab8099c551456df0f10f9c38f54d077008)), closes [#471](https://github.com/theforeman/foreman-js/issues/471)
+* Revert "fix(deps): bump jest" ([19b6bf3](https://github.com/theforeman/foreman-js/commit/19b6bf3609a2ad17183831923cd1675036bcafc2))
+
+
+### BREAKING CHANGES
+
+* **root:** Removes stories package
+* **vendor-core:** Removes patternfly/react-catalog-view-extension
+* **vendor:** removing bootstrap mixins, replacing node-sass with sass
+* **vendor-core:** ace editor search import changes, also need to disable loadWorkerFromBlob
+* **deps:** The flot.jquery has been dropped and can be no longer used.
+
+
+
+
+
 # [13.0.0](https://github.com/theforeman/foreman-js/compare/v12.2.3...v13.0.0) (2024-02-05)
 
 

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/theforeman/foreman-js/compare/v8.1.2...v14.0.0) (2024-04-03)
+
+
+### Bug Fixes
+
+* **vendor:** pin working cheerio and babel versions ([165aa69](https://github.com/theforeman/foreman-js/commit/165aa692365f093788e0a4e39d9b0b5b10567bd7))
+* **vendor:** updating scss-bundle ([3a78242](https://github.com/theforeman/foreman-js/commit/3a782426d7074f4dfef78e23368fc26eee9c5bd0))
+
+
+### Reverts
+
+* Revert "chore(builder): bump babel/preset-env (#471)" ([da110da](https://github.com/theforeman/foreman-js/commit/da110dab8099c551456df0f10f9c38f54d077008)), closes [#471](https://github.com/theforeman/foreman-js/issues/471)
+
+
+### BREAKING CHANGES
+
+* **vendor:** removing bootstrap mixins, replacing node-sass with sass
+
+
+
+
+
 # [13.0.0](https://github.com/theforeman/foreman-js/compare/v12.2.3...v13.0.0) (2024-02-05)
 
 **Note:** Version bump only for package @theforeman/vendor
